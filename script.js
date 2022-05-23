@@ -49,7 +49,15 @@ function game(){
         img2.src="images/dice6.png";
     }
 
-    
+    if( randomOne == randomTwo){
+        mainText.innerHTML="Draw"
+    }
+    else if( randomOne > randomTwo){
+        mainText.innerHTML="Player 1 Wins";
+    }
+    else{
+        mainText.innerHTML="Player 2 Wins";
+    }
     
 
 
