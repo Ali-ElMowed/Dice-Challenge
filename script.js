@@ -53,12 +53,10 @@ function game(){
         mainText.innerHTML="Draw"
     }
     else if( randomOne > randomTwo){
-        mainText.innerHTML="Player 1 Wins";
+        mainText.innerHTML="&#128681 Player 1 Wins";
     }
     else{
-        mainText.innerHTML="Player 2 Wins";
+        mainText.innerHTML="Player 2 Wins &#128681";
     }
     
-
-
 }
